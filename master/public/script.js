@@ -1,6 +1,6 @@
 //generating a random pokemon id
 const generateId = () => {
-  Math.floor(Math.random() * 898 + 1);
+  Math.floor(Math.random() * 898) + 1;
 };
 
 //calling generatedId and assigning it to an initail variable

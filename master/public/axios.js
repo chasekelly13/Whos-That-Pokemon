@@ -29,13 +29,13 @@
 //   });
 // };
 
-function getPokemon() {
+getPokemon() = () => {
   axios({
     method: "get",
-    url: "https://pokeapi.co/api/v2/pokemon/1",
+    url: `https://pokeapi.co/api/v2/pokemon/${id}`,
   })
     .then((res) => console.log(res))
     .catch((err) => console.log(err));
-}
+};
 
 //document.getElementById("get").addEventListener("click", getPokemon);
