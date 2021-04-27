@@ -29,6 +29,7 @@ let gen6Pokemon = [];
 let gen7Pokemon = [];
 let gen8Pokemon = [];
 
+//should I do a bunch of for loops or one big for loop with while loops in it?
 // for (let i = 1; i < 899; i++) {
 //   let j = 1;
 //   while (i < 152) {
@@ -38,6 +39,7 @@ let gen8Pokemon = [];
 //   j++;
 //   while()
 // }
+
 for (let i = 1; i < 152; i++) {
   gen1Pokemon.push(i);
   return gen1Pokemon;
