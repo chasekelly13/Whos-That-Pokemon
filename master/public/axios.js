@@ -29,7 +29,7 @@
 //   });
 // };
 
-getPokemon() = () => {
+let getPokemon = () => {
   axios({
     method: "get",
     url: `https://pokeapi.co/api/v2/pokemon/${id}`,
@@ -38,4 +38,4 @@ getPokemon() = () => {
     .catch((err) => console.log(err));
 };
 
-//document.getElementById("get").addEventListener("click", getPokemon);
+document.getElementById("get").addEventListener("click", getPokemon);
