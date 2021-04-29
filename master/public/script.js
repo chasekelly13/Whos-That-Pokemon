@@ -50,46 +50,6 @@ for (let i = 1; i < 899; i++) {
   }
 }
 
-// for (let i = 1; i < 152; i++) {
-//   gen1Pokemon.push(i);
-//   return gen1Pokemon;
-// }
-
-// for (let i = 152; i < 252; i++) {
-//   gen2Pokemon.push(i);
-//   return gen2Pokemon;
-// }
-
-// for (let i = 252; i < 387; i++) {
-//   gen3Pokemon.push(i);
-//   return gen3Pokemon;
-// }
-
-// for (let i = 387; i < 494; i++) {
-//   gen4Pokemon.push(i);
-//   return gen4Pokemon;
-// }
-
-// for (let i = 494; i < 650; i++) {
-//   gen5Pokemon.push(i);
-//   return gen5Pokemon;
-// }
-
-// for (let i = 650; i < 722; i++) {
-//   gen6Pokemon.push(i);
-//   return gen6Pokemon;
-// }
-
-// for (let i = 722; i < 810; i++) {
-//   gen7Pokemon.push(i);
-//   return gen7Pokemon;
-// }
-
-// for (let i = 810; i < 899; i++) {
-//   gen5Pokemon.push(i);
-//   return gen5Pokemon;
-// }
-
 //adding array items to the chosenGenerations
 // const chosenGenerationFunc = () => {
 
