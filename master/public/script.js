@@ -29,16 +29,26 @@ let gen6Pokemon = [];
 let gen7Pokemon = [];
 let gen8Pokemon = [];
 
-//should I do a bunch of for loops or one big for loop with while loops in it?
-// for (let i = 1; i < 899; i++) {
-//   let j = 1;
-//   while (i < 152) {
-//     `gen${j}Pokemon`.push(i);
-//     i++;
-//   }
-//   j++;
-//   while()
-// }
+// should I do a bunch of for loops or one big for loop with while loops in it?
+for (let i = 1; i < 899; i++) {
+  if (i < 152) {
+    gen1Pokemon.push(i);
+  } else if (i < 252) {
+    gen2Pokemon.push(i);
+  } else if (i < 387) {
+    gen3Pokemon.push(i);
+  } else if (i < 494) {
+    gen4Pokemon.push(i);
+  } else if (i < 650) {
+    gen5Pokemon.push(i);
+  } else if (i < 722) {
+    gen6Pokemon.push(i);
+  } else if (i < 810) {
+    gen7Pokemon.push(i);
+  } else if (i < 899) {
+    gen8Pokemon.push(i);
+  }
+}
 
 for (let i = 1; i < 152; i++) {
   gen1Pokemon.push(i);
@@ -79,3 +89,9 @@ for (let i = 810; i < 899; i++) {
   gen5Pokemon.push(i);
   return gen5Pokemon;
 }
+
+//adding array items to the chosenGenerations
+// const chosenGenerationFunc = () => {
+
+//   let chosenGeneration = [];
+// }
